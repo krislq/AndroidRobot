@@ -37,3 +37,5 @@ B ->后退
 
 在应用面板的右边为机器人当前的位置与方向。
 
+![image](./src/images/capture.jpeg)
+

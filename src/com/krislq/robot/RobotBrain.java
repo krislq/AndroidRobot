@@ -52,7 +52,7 @@ public class RobotBrain extends JFrame implements KeyListener {
     }
     
 
-    public static final String APP_NAME = "Android Robot Brain";
+    public static final String APP_NAME = "Robot Run";
     private int mAppWidth = 500;
     private int mAppHeight = 500;
     private JSplitPane mMainPane = null;
