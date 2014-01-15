@@ -112,11 +112,11 @@ public class RobotBrain extends JFrame implements KeyListener {
                     x = Integer.parseInt(positions[0]);
                     y = Integer.parseInt(positions[1]);
                     String s = positions[2];
-                    if("E".equals(s)) {
+                    if("E".equalsIgnoreCase(s)) {
                         direction = IAction.E; 
-                    }else if("W".equals(s)) {
+                    }else if("W".equalsIgnoreCase(s)) {
                         direction = IAction.W; 
-                    }else if("N".equals(s)) {
+                    }else if("N".equalsIgnoreCase(s)) {
                         direction = IAction.N; 
                     }else{
                         direction = IAction.S; 
